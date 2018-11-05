@@ -3,12 +3,14 @@
     {
       "author": "admin",
       "title": "Hello World",
-      "content": "ipsum lorem"
+      "content": "ipsum lorem",
+      "published": true
     },
     {
       "author": "bob",
       "title": "What's with the Turtles?",
-      "content": "like, why are they going all the way down...?"
+      "content": "like, why are they going all the way down...?",
+      "published": true
     },
     {
       "author": "bob",

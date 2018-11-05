@@ -28,7 +28,7 @@
 	<div className="row justify-content-center">
     <RS.Col lg="8">
 			<h1>{ post.title }</h1>
-      <h6>by { post.author ? post.author.username : "???"}</h6>
+      <h6>by { post.author ? post.author.username : "???"} { post.published ? " - Published" : " - Draft" }</h6>
 			<hr />
 			<pre>{ post.content }</pre> 
       <br />

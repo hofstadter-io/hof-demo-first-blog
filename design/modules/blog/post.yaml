@@ -5,6 +5,12 @@ type:
     name: author
     type: has-many
 
+  visibility:
+    enabled: true
+    default: false
+    public: published
+    private: draft
+
   fields:
   - name: title
     type: string
