@@ -1,0 +1,45 @@
+type:
+  name: post
+
+  owned:
+    name: author
+    type: has-many
+
+  fields:
+  - name: title
+    type: string
+    length: 128
+  - name: content
+    type: text
+
+  auth:
+    view:
+      public: ['user']
+      private: ['admin']
+    create: ['user']
+    delete: ['admin']
+
+  pages:
+    create:
+      route: "/post/new"
+
+    update:
+      route: "/post/edit/:id"
+      style: "design/modules/blog/pages/post/update/style.scss"
+
+    list:
+      route: "/posts"
+      sync: true
+      custom: true
+      style: "design/modules/blog/pages/post/list/style.scss"
+      files:
+        - "design/modules/blog/pages/post/list/content.html"
+
+    view:
+      sync: true
+      custom: true
+      route: "/post/:id"
+      style: "design/modules/blog/pages/post/view/style.scss"
+      files:
+        - "design/modules/blog/pages/post/view/content.html"
+

@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "author": "admin",
+      "title": "Hello World",
+      "content": "ipsum lorem"
+    },
+    {
+      "author": "bob",
+      "title": "What's with the Turtles?",
+      "content": "like, why are they going all the way down...?"
+    },
+    {
+      "author": "bob",
+      "title": "What's with the Turtles? pt2",
+      "content": "like, why are they going all the way down...?"
+    },
+    {
+      "author": "alice",
+      "title": "How about them Turtles!",
+      "content": "they hold the world up"
+    }
+  ]
+}
+

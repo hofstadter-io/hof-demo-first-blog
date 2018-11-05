@@ -1,0 +1,21 @@
+module:
+  name: blog
+
+  types:
+  - name: post
+    type: type.modules.blog.post
+
+  seeds:
+    file: seeds/blogs.json
+    types:
+      - name: post
+        data: posts
+        type: type.modules.blog.post
+
+  translations:
+  - name: en
+    file: design/modules/blog/locales/en.json
+  - name: es
+    file: design/modules/blog/locales/es.json
+
+
