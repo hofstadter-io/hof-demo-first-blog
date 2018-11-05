@@ -4,6 +4,8 @@ module:
   types:
   - name: post
     type: type.modules.blog.post
+  - name: comment
+    type: type.modules.blog.comment
 
   seeds:
     file: seeds/blogs.json

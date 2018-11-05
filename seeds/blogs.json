@@ -4,13 +4,33 @@
       "author": "admin",
       "title": "Hello World",
       "content": "ipsum lorem",
-      "published": true
+      "published": true,
+      "comments": [
+        {
+          "author": "bob",
+          "content": "nice post!"
+        },
+        {
+          "author": "alice",
+          "content": "I second that notion"
+        }
+      ]
     },
     {
       "author": "bob",
       "title": "What's with the Turtles?",
       "content": "like, why are they going all the way down...?",
-      "published": true
+      "published": true,
+      "comments": [
+        {
+          "author": "admin",
+          "content": "nice post!"
+        },
+        {
+          "author": "alice",
+          "content": "I second that notion"
+        }
+      ]
     },
     {
       "author": "bob",
